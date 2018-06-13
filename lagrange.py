@@ -24,7 +24,6 @@ def main():
         Lx.append(int(input("X{} =".format(i))))
         Ly.append(int(input("Y{} =".format(i))))
         i += 1
-
     p_x = simplify(Lagrange(Lx,Ly))
     print ("P(X) = {}".format(p_x))
     plot(p_x)
